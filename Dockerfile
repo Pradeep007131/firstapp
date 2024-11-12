@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install Flask
-RUN pip install flask
+RUN pip3 install Flask
 
 # Expose port 3333 for the Flask app
 EXPOSE 5000
